@@ -16,8 +16,28 @@ body{
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
+  h2{
+    padding: 10px;
+    color: white;
+    &:hover{
+      cursor: pointer;
+      background: rgba(0,0,0,0.1);
+      border-radius: 10px;
+      transition: background 0.3s;
+    }
+  }
+  button{
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    &:hover{
+      cursor: pointer;
+      background: rgba(0,0,0,0.1);
+      transition: background 0.3s;
+    }
+  }
 }
-h2{
-  padding: 10px;
-  color: white;
-}
+
